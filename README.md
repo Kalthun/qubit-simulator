@@ -1,3 +1,8 @@
+# TODO
+- Finish README
+- add simulation count (to show correct distribution
+- support multiple qbits
+
 # qubit-simulator
 A simple program that simulates a measurement taken on a **quantum register**.
 
