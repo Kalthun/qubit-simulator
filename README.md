@@ -2,6 +2,7 @@
 - Finish README
 - add simulation count (to show correct distribution
 - support multiple qbits
+- support **bloch sphere** visualization for single qubit registers
 
 # qubit-simulator
 A simple program that simulates a measurement taken on a **quantum register**.
@@ -11,15 +12,13 @@ A simple program that simulates a measurement taken on a **quantum register**.
 ### Fundamentals
 A qubit can be described as a ... using a two-dimentional vector space over the complex numbers, with basis vectors $\lvert0\rangle$ and $\lvert1\rangle$. 
 
-$\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
+General form: $\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
+
 - $\psi:$
-- $\alpha:$
-- $\beta:$
+- $\alpha:$ probability amplitude of $0$
+- $\beta:$ probability amplitude of $1$
 
-
-```math
-\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} = 1
-```
+With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} = 1$
 
 ## How to use
 
