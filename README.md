@@ -1,9 +1,3 @@
-# TODO
-- Finish README
-- add simulation count (to show correct distribution
-- support multiple qbits
-- support **bloch sphere** visualization for single qubit registers
-
 # qubit-simulator
 A simple program that simulates a measurement taken on a **quantum register**.
 
@@ -20,14 +14,24 @@ General form: $\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
 
 With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} = 1$
 
-## How to use
+## Getting Started
 
-### Dependencies
+### Requirements
 - python (language)
 - python-numpy (package)
-### Installing
+
+### Installation
 - clone repository
+
 ### Running
 ```sh
 $ python main.py 
 ```
+
+## Usage
+
+## Roadmap
+-[] Finish README
+-[] add simulation iterations (to show correct distribution)
+-[] support multiple qubits
+-[] support **bloch sphere** visualization for single qubit registers
