@@ -31,7 +31,7 @@ $ python main.py
 ## Usage
 
 ## Roadmap
--[] Finish README
--[] add simulation iterations (to show correct distribution)
--[] support multiple qubits
--[] support **bloch sphere** visualization for single qubit registers
+-[ ] Finish README
+-[ ] add simulation iterations (to show correct distribution)
+-[ ] support multiple qubits
+-[ ] support **bloch sphere** visualization for single qubit registers
