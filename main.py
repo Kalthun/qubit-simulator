@@ -35,8 +35,7 @@ class Qubit:
         return f'|ψ> = ({self.state[0]:.2f}|0> + {self.state[1]:.2f}|1>)'
 
 # Example usage:
-# q = Qubit(1/np.sqrt(2), 1/np.sqrt(2))
-q = Qubit(np.sqrt(1/3), -np.sqrt(2/3));
+q = Qubit(1/np.sqrt(2), 1/np.sqrt(2))
 
 print(q)  # Print the qubit state
 measurement = q.measure()  # Simulate measuring the qubit
