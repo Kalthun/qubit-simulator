@@ -25,6 +25,9 @@ With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rver
 
 ### Running
 ```sh
+$ cd .../qubit-simulator
+```
+```sh
 $ python main.py 
 ```
 
