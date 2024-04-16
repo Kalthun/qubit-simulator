@@ -19,11 +19,9 @@ With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rver
 ## Getting Started
 
 ### Requirements
-#### Language
 - python
-#### Packages
-- numpy
-- matplotlib
+  - numpy
+  - matplotlib
 
 ### Installation
 - clone repository
