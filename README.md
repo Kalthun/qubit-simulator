@@ -16,6 +16,16 @@ General form: $\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
 
 With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} = 1$
 
+### Bloch Sphere
+```math
+\begin{align}
+\lvert\psi\rangle &= \alpha\lvert0\rangle + \beta\lvert1\rangle \\
+&= [r_{\alpha}(\text{cos}\theta_{\alpha}+\text{sin}\theta_{\alpha}j)] \lvert0\rangle
+ + [r_{\beta}(\text{cos}\theta_{\beta}+\text{sin}\theta_{\beta}j)] \lvert1\rangle \\
+
+\end{align}
+```
+
 ## Getting Started
 
 ### Requirements
