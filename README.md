@@ -1,7 +1,7 @@
 # qubit-simulator
 A simple program that simulates a measurement taken on a **qubit** and plots the current state in the **bloch sphere**.
 
-## Description
+## Overview
 
 ### Fundamentals
 A qubit can be described as a ... using a two-dimentional vector space over the complex numbers, with basis vectors $\lvert0\rangle$ and $\lvert1\rangle$. 
@@ -55,7 +55,7 @@ $ python main.py
 ## Usage
 
 ## Roadmap
-- [ ] Finish README
+- [ ] add proper user interface
 - [ ] add simulation iterations (to show correct distribution)
+- [ ] add visualization of qubit
 - [ ] support multiple qubits
-- [ ] support **bloch sphere** visualization for single qubit registers
