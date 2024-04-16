@@ -1,5 +1,5 @@
 # qubit-simulator
-A simple program that simulates a measurement taken on a **quantum register**.
+A simple program that simulates a measurement taken on a **qubit** and plots the current state in the **bloch sphere**.
 
 ## Description
 
