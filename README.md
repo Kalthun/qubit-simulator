@@ -20,11 +20,11 @@ With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rver
 
 ### Requirements
 - python
-  - numpy
-  - matplotlib
+    - numpy
+    - matplotlib
 
 ### Installation
-- clone repository
+Clone repository
 
 ### Running
 ```sh
