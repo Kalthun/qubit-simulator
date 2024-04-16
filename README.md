@@ -19,11 +19,17 @@ With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rver
 ### Bloch Sphere
 ```math
 \begin{align}
+
 \lvert\psi\rangle &= \alpha\lvert0\rangle + \beta\lvert1\rangle \\
+
 &= \Bigl[ a_{\alpha}+b_{\alpha}j \Bigr] \lvert0\rangle
  + \Bigl[ a_{\beta}+b_{\beta}j \Bigr] \lvert1\rangle \\
+
 &= \Bigl[r_{\alpha}\Bigl(\text{cos}(\theta_{\alpha})+\text{sin}(\theta_{\alpha})j\Bigr)\Bigr] \lvert0\rangle
  + \Bigl[r_{\beta}\Bigl(\text{cos}(\theta_{\beta})+\text{sin}(\theta_{\beta})j\Bigr)\Bigr] \lvert1\rangle \\
+
+&= \Bigl[r_{\alpha}e^{i\theta_{\alpha}}\Bigr] \lvert0\rangle
+ + \Bigl[r_{\beta}e^{i\theta_{\beta}}\Bigr] \lvert1\rangle \\
 
 \end{align}
 ```
