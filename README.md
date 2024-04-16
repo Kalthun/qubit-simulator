@@ -11,7 +11,7 @@ General form: $\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
 - $\lvert\psi\rangle:$ current state vector
 - $\\;\alpha\\;:$ the complex probability amplitude of $0$
 - $\lvert0\rangle:\left[ 1 \atop 0 \right]:\text{ket 0}$
-- $\\;\beta\\;:$ the complex probability amplitude of 1$
+- $\\;\beta\\;:$ the complex probability amplitude of $1$
 - $\lvert1\rangle:\left[ 0 \atop 1 \right]:\text{ket 1}$
 
 With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} = 1$
