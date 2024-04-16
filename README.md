@@ -56,6 +56,6 @@ $ python main.py
 
 ## Roadmap
 - [ ] add proper user interface
-- [ ] add simulation iterations (to show correct distribution)
+- [X] add simulation iterations
 - [ ] add visualization of qubit
 - [ ] support multiple qubits
