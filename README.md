@@ -8,7 +8,7 @@ A qubit can be described as a ... using a two-dimentional vector space over the 
 
 General form: $\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
 
-- $\lvert\psi\rangle:$ current state
+- $\lvert\psi\rangle:$ current state vector
 - $\\;\alpha\\;:$ the complex probability amplitude of $0$
 - $\lvert0\rangle:\left[ 1 \atop 0 \right]:\text{ket 0}$
 - $\\;\beta\\;:$ the complex probability amplitude of 1$
