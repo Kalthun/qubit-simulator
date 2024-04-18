@@ -59,3 +59,4 @@ $ python main.py
 - [X] add simulation iterations
 - [ ] add visualization of qubit
 - [ ] support multiple qubits
+- [ ] add gate operations
