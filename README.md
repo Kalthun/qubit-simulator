@@ -14,7 +14,7 @@ General form: $\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
 - $\\;\beta\\;:$ the complex probability amplitude of $1$
 - $\lvert1\rangle:\left[ 0 \atop 1 \right]:\text{ket 1}$
 
-With the **nomilization constraint**: $\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} = 1$
+With the **nomilization constraint**: $\lvert\langle\psi\vert\psi\rangle\rvert = \lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} = 1$
 
 ### Bloch Sphere
 ```math
