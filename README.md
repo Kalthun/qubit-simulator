@@ -40,7 +40,7 @@ With the **nomilization constraint**: $\lvert\langle\psi\vert\psi\rangle\rvert =
     &= r_{\alpha} \lvert0\rangle
      + r_{\beta}e^{j(\phi_{\beta}-\phi_{\alpha})} \lvert1\rangle \\
 
-    &= r_{alpha}\lvert0\rangle
+    &= r_{\alpha}\lvert0\rangle
      + r_{\beta}e^{j\phi} \lvert1\rangle
 
 \end{align}
