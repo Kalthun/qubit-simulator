@@ -121,6 +121,7 @@ celerybeat.pid
 
 # Environments
 domain/
+.direnv
 .env
 .venv
 env/
