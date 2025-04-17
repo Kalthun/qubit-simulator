@@ -14,19 +14,18 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-      
+
       forEachSupportedSystem = f: nixpkgs.lib.genAttrs supportedSystems (system: f { pkgs = import nixpkgs { inherit system; }; });
 
     in {
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           packages = with pkgs; [
-            (python3.withPackages (ps: with ps; [
-              numpy
-              scipy
-              matplotlib
-              pandas
+            (python3.withPackages (ps: with ps; [ 
               jupyter
+              tabulate
+              openai-whisper
+              google-generativeai
             ]))
           ] ++ (if pkgs.system == "aarch64-darwin" then [ ] else [ gdb ]);
         };
