@@ -21,11 +21,11 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           packages = with pkgs; [
-            (python3.withPackages (ps: with ps; [ 
+            (python3.withPackages (ps: with ps; [
               jupyter
               tabulate
-              openai-whisper
-              google-generativeai
+              numpy
+              matplotlib
             ]))
           ] ++ (if pkgs.system == "aarch64-darwin" then [ ] else [ gdb ]);
         };

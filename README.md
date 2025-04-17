@@ -1,10 +1,10 @@
 # qubit-simulator
-A simple program that simulates measurements taken on a **qubit** and plots the current state in the **bloch sphere**.
+TODO
 
 ## Overview
 
 ### Fundamentals
-A qubit can be described as a ... using a two-dimentional vector space over the complex numbers, with basis vectors $\lvert0\rangle$ and $\lvert1\rangle$. 
+A qubit can be described as a ... using a two-dimentional vector space over the complex numbers, with basis vectors $\lvert0\rangle$ and $\lvert1\rangle$.
 
 General form: $\lvert\psi\rangle = \alpha\lvert0\rangle + \beta\lvert1\rangle$
 
@@ -45,30 +45,3 @@ With the **nomilization constraint**: $\lvert\langle\psi\vert\psi\rangle\rvert =
 
 \end{align}
 ```
-
-## Getting Started
-
-### Requirements
-- python
-    - numpy
-    - matplotlib
-
-### Installation
-Clone repository
-
-### Running
-```sh
-$ cd .../qubit-simulator
-```
-```sh
-$ python main.py 
-```
-
-## Usage
-
-## Roadmap
-- [ ] add proper user interface
-- [X] add simulation iterations
-- [ ] add visualization of qubit
-- [ ] support multiple qubits
-- [ ] add gate operations
